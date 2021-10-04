@@ -1,2 +1,8 @@
-package com.example.thesixstudents;public class Triangle {
+package com.example.thesixstudents;
+
+public class Triangle extends Shape{
+
+    public Triangle(int x, int y) {
+        super(x, y);
+    }
 }
